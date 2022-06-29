@@ -1,0 +1,33 @@
+.slider-carrousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: row;
+    width: 100%;
+    z-index: 50;
+    background-color: var(--Black);
+}
+.slider-carrousel a img {
+    width: 100%;
+    z-index: 50;
+}
+
+@media(max-width:950px) {
+    .slider-carrousel {
+        margin-top:65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        flex-direction: row;
+        width: 100%;
+        z-index: 50;
+        background-color: aqua;
+    }
+    .slider-carrousel a img {
+        width: 100%;
+        z-index: 50;
+    }
+    
+}

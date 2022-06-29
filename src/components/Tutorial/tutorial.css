@@ -1,0 +1,127 @@
+﻿.Tutorial {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    color: var(--White);
+    width: 100%;
+    padding: 0 200px;
+}
+
+
+.Tutorial .steps {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: var(--White);
+    width: 50%;
+    text-align: left;
+}
+.Tutorial .steps h1 {
+    color: var(--White);
+    font-weight: 400;
+    text-align: left;
+}
+
+.Tutorial .steps .stepsUnic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 10px;
+}
+
+.Tutorial .steps .stepsUnic .number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--White);
+}
+
+.Tutorial .steps .stepsUnic .number h3 {
+    color: var(--White);
+    position: relative;
+}
+
+.Tutorial .steps .stepsUnic .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 0;
+    margin-left: 20px;
+}
+
+
+.Tutorial .steps .stepsUnic .text h3 {
+    color: var(--White);
+}
+.Tutorial .steps .stepsUnic .text h5 {
+    display: none;
+}
+
+.Tutorial .steps .stepsUnicSelect {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 10px;
+}
+
+.Tutorial .steps .stepsUnicSelect .number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--Red);
+    border: 1px solid var(--Red);
+}
+
+.Tutorial .steps .stepsUnicSelect .number h3 {
+    color: var(--White);
+    position: relative;
+}
+
+
+.Tutorial .steps .stepsUnicSelect .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5px 0;
+    margin-left: 20px;
+    border-bottom: 3px solid var(--Red);
+}
+
+.Tutorial .steps .stepsUnicSelect .text h3 {
+    color: var(--White);
+    font-weight: bold;
+}
+
+.Tutorial .steps .stepsUnicSelect .text h5 {
+    color: var(--White);
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.Tutorial .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.Tutorial .image img {
+    width: 100%;
+}

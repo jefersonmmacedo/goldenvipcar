@@ -1,0 +1,26 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root{
+    --Black: #060606;
+    --Gray: #252525;
+    --Red: #780606;
+    --White: #fff;
+  }
+
+  body {
+    font-family: 'Ubuntu', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--White);
+    background-color: var(--Black);
+  }
+  
+  body button {
+    cursor: pointer;
+  }
+  
+  
