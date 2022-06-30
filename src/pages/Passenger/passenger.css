@@ -1,0 +1,89 @@
+﻿.Passenger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Passenger .top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    width: 100%;
+    background-color: var(--Red);
+    background-image: url("../../assets/images/passageiro.jpg");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Passenger .top .text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+}
+
+.Passenger .top .text h1 {
+    font-size: 7em;
+}
+.Passenger .top .text h2 {
+    font-weight: 400;
+}
+.Passenger .top .text h4 {
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.Passenger .top .text button {
+    color: var(--White);
+    background-color: var(--Red);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.Passenger .infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--Red);
+    padding: 40px;
+    margin-bottom:60px;
+}
+.Passenger .infos .itens {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    background-color: var(--Red);
+}
+
+.Passenger .infos .itens .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--Blue);
+    width: 350px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.Passenger .infos .itens .item h2 {
+    margin: 10px 0;
+}

@@ -1,5 +1,7 @@
 import {Route, Routes, Navigate} from 'react-router-dom';
+import { Driver } from '../pages/Driver/Driver';
 import { Home } from '../pages/Home/Home';
+import { Passenger } from '../pages/Passenger/Passenger';
 
 
 
@@ -15,6 +17,8 @@ function Router () {
     return (
         <Routes>
             <Route path="/" element={<Home />}/>      
+            <Route path="/motorista" element={<Driver />}/>      
+            <Route path="/passageiro" element={<Passenger />}/>      
    
 
             {/* Administração  */}
