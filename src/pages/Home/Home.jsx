@@ -4,6 +4,7 @@ import { SliderCarroussel } from "../../components/Slider/SliderCarroussel"
 import { Tutorial } from "../../components/Tutorial/Tutorial";
 import { InvestimentBar } from "../../components/InvestimentBar/InvestimentBar";
 import { DriverBar } from "../../components/DriverBar/DriverBar";
+import { Footer } from "../../components/Footer/Footer";
 
 function Home() {
     return (
@@ -18,6 +19,7 @@ function Home() {
             <Tutorial />
             <InvestimentBar />
             <DriverBar />
+            <Footer />
         </div>
     )
 }

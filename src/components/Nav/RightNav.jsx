@@ -88,7 +88,7 @@ const Ul = styled.ul`
 function HandleOpen(e) {
   e.preventDefault();
 
-  window.open("https://wa.me/5522999942800?text=Olá. Gostaria de saber mais detalhes sobre cursos")
+  window.open("/login")
 }
 function HandleOpenStudent(e) {
   e.preventDefault();
@@ -116,12 +116,12 @@ const RightNav = ({ open }) => {
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/cursos/selecione' >
+            <Link to='/corridapremiada' >
               Corrida premiada
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/depoimentos' >
+            <Link to='/parceiros' >
               Parceiros
             </Link>
           </li>

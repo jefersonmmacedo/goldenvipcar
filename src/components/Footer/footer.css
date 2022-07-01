@@ -1,0 +1,41 @@
+﻿.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px;
+    border: none;
+    border-top: 1px solid var(--Gray);
+    background-color: var(--Red);
+}
+
+.Footer .blocks {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 90%;
+    padding: 40px;
+}
+
+.Footer .blocks .block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    background-color: var(--Gray)
+}
+
+.Footer .copy {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 90%;
+    border: none;
+    border-top: 1px solid var(--White);
+    padding: 40px;
+}
