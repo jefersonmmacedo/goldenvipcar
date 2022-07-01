@@ -1,6 +1,7 @@
 import {Route, Routes, Navigate} from 'react-router-dom';
 import { Driver } from '../pages/Driver/Driver';
 import { Home } from '../pages/Home/Home';
+import { Login } from '../pages/Login/Login';
 import { Passenger } from '../pages/Passenger/Passenger';
 import { Premier } from '../pages/Premier/Premier';
 
@@ -21,6 +22,7 @@ function Router () {
             <Route path="/motorista" element={<Driver />}/>      
             <Route path="/passageiro" element={<Passenger />}/>      
             <Route path="/corridapremiada" element={<Premier />}/>      
+            <Route path="/login" element={<Login />}/>      
    
 
             {/* Administração  */}

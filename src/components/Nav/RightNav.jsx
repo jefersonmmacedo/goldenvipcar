@@ -93,7 +93,7 @@ function HandleOpen(e) {
 function HandleOpenStudent(e) {
   e.preventDefault();
 
-  window.open("/areadoaluno", "_self")
+  window.open("/login", "_self")
 }
 
 
