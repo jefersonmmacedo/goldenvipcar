@@ -12,21 +12,55 @@
 
 .Footer .blocks {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content:space-between;
     flex-direction: row;
     width: 90%;
-    padding: 40px;
+    padding: 40px 20px 20px 20px;
 }
 
 .Footer .blocks .block {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-direction: column;
+    width: 220px;
+    height: 220px;
+    text-align: left;
+}
+
+.Footer .blocks .block img {
     width: 150px;
-    height: 150px;
-    background-color: var(--Gray)
+}
+
+.Footer .blocks .block p {
+    margin-bottom: 10px;
+}
+.Footer .blocks .block h5 {
+    font-weight:400;
+    margin-bottom: 5px;
+}
+.Footer .blocks .block .icons {
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 100%;
+}
+.Footer .blocks .block .icons .icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.Footer .blocks .block .icons .icon .logos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
 }
 
 .Footer .copy {
