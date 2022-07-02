@@ -41,6 +41,7 @@ function Passenger() {
                 </div>
                 </div>
             </div>
+
             <Tutorial />
             <Footer />
         </div>

@@ -102,3 +102,74 @@
    font-size: 17px;
    font-weight:400;
 }
+
+.Announce .register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 90%;
+    margin: 60px 0;
+}
+
+.Announce .register form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+}
+.Announce .register form .data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+.Announce .register form .data input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 49%;
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    color: var(--Red);
+}
+.Announce .register form textarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    color: var(--Red);
+    margin: 5px 0;
+    padding: 10px;
+    resize: none;
+}
+.Announce .register form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    color: var(--White);
+    background-color: var(--Red);  
+}
+
+.Announce .register .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+}

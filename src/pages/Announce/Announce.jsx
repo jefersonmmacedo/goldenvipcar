@@ -1,6 +1,7 @@
 ﻿import "./announce.css";
 import Navbar from "../../components/Nav/Navbar";
 import { Footer } from "../../components/Footer/Footer";
+import iPhone from "../../assets/images/iphone.png";
 import {FaMugHot, FaBoxOpen, FaPercentage, FaHandHoldingUsd, FaChalkboardTeacher} from 'react-icons/fa'
 
 function Announce() {
@@ -38,6 +39,28 @@ function Announce() {
                                     </div>
                                 </div>
                             </div>
+                            <div className="register">
+                <form action="">
+                    <h1>Cadastre-se e seja um parceiro:</h1>
+                    <div className="data">
+                        <input type="text" placeholder="Nome"/>
+                        <input type="text" placeholder="Empresa"/>
+                    </div>
+                    <div className="data">
+                        <input type="text" placeholder="E-mail"/>
+                        <input type="text" placeholder="Whatsapp"/>
+                    </div>
+                    <div className="data">
+                        <input type="text" placeholder="Cidade"/>
+                        <input type="text" placeholder="Segmento"/>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Deixe sua dúvida para melhorar o nosso contato"></textarea>
+                    <button>Enviar</button>
+                </form>
+                <div className="image">
+                    <img src={iPhone} alt="" />
+                </div>
+            </div>
 
             <Footer />
         </div>
