@@ -43,14 +43,32 @@
     margin-top: 5px;
 }
 
-.Passenger .top .text button {
+.Passenger .top .text .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+.Passenger .top .text .buttons button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
     color: var(--White);
     background-color: var(--Red);
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
     margin-top: 20px;
+    margin-right: 10px;
+    font-size: 16px;
 }
+
+.Passenger .top .text .buttons button svg {
+    margin-right: 5px;
+}
+
 
 .Passenger .infos {
     display: flex;

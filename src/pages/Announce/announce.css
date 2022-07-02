@@ -1,0 +1,104 @@
+﻿.Announce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Announce .top {
+    background-color: var(--Red);
+    background-image: url("../../assets/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 550px;
+    padding-top: 100px;
+}
+
+.Announce .top .text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    padding:100px;
+}
+
+.Announce .top .text h1 {
+    font-size: 3em;
+}
+.Announce .top .text h3 {
+    font-weight: 400;
+}
+
+.Announce .top .text button {
+    color: var(--White);
+    background-color: var(--Red);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 1em;
+}
+.Announce .top .animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 400px;
+}
+
+.Announce .infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 60px 0;
+}
+
+.Announce .infos h1 {
+    font-size: 3em;
+    margin: 10px;
+}
+.Announce .infos .list-infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.Announce .infos .list-infos .infoUnic {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    width: 600px;
+    height: 120px;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(56,56,56,1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(56,56,56,1);
+    box-shadow: 2px 2px 5px 0px rgba(56,56,56,1);
+}
+
+.background{}
+.Announce .infos .list-infos .infoUnic h1 {
+   font-size: 3em;
+   margin: 5px;
+}
+.Announce .infos .list-infos .infoUnic p {
+   margin: 5px;
+   font-size: 17px;
+   font-weight:400;
+}

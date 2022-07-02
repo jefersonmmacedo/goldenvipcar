@@ -17,6 +17,7 @@
     flex-direction: row;
     width: 90%;
     padding: 40px 20px 20px 20px;
+    flex-wrap: wrap;
 }
 
 .Footer .blocks .block {
