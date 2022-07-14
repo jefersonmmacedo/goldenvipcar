@@ -3,6 +3,7 @@ import Navbar from "../../components/Nav/Navbar";
 import {IoChatbubblesOutline, IoPulseOutline, IoShieldCheckmarkOutline} from 'react-icons/io5'
 import { Tutorial } from "../../components/Tutorial/Tutorial";
 import { Footer } from "../../components/Footer/Footer";
+import { TutorialDriver } from "../../components/TutorialDriver/TutorialDriver";
 
 function Driver() {
     return (
@@ -39,7 +40,7 @@ function Driver() {
                 </div>
                 </div>
             </div>
-            <Tutorial />
+            <TutorialDriver />
             <Footer />
         </div>
     )

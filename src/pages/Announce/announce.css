@@ -173,3 +173,77 @@
     flex-direction: row;
     width: 50%;
 }
+
+
+@media (max-width: 768px) {
+    .Announce .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding-top: 40px;
+    }
+
+    .Announce .top .text {
+        margin-top:40px;
+       width: 100%;
+       padding:20px;
+    }
+
+    .Announce .top .animation {
+        width: 40%;
+    }
+
+    .Announce .infos h1 {
+        text-align: center;
+    }
+
+    .Announce .register form {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .Announce .register form h1 {
+        margin: 10px 0;
+    }
+
+    
+
+    .Announce .register .image {
+        display: none;
+    }
+
+    
+@media (max-width: 600px) {
+
+    .Announce .top .animation {
+        width: 60%;
+    }
+
+    .Announce .register form .data {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Announce .register form .data input {
+        width: 100%;
+    }
+
+    .Announce .infos .list-infos .infoUnic {
+        height: 100%;
+        margin: 20px;
+    }
+
+
+    @media (max-width: 500px) {
+        .Announce .top .animation {
+            width: 70%;
+        }
+    }
+}
+}

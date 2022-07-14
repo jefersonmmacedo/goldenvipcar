@@ -105,3 +105,41 @@
 .Passenger .infos .itens .item h2 {
     margin: 10px 0;
 }
+
+@media (max-width: 720px) {
+
+    
+.Passenger .infos {
+    text-align: center;
+}
+
+    .Passenger .top{
+        padding: 50px;
+    }
+
+    .Passenger .top .text h1 {
+        font-size: 5em;
+    }
+
+    @media (max-width: 500px) {
+
+        .Passenger .top{
+            padding: 20px;
+        }
+    
+        .Passenger .top .text h1 {
+            font-size: 5em;
+        }
+
+        @media (max-width: 500px) {
+
+       
+            .Passenger .top .text h1 {
+                font-size: 4em;
+            }
+        
+        }
+    
+    }
+
+}

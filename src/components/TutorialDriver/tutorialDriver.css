@@ -1,4 +1,4 @@
-﻿.Tutorial {
+﻿.TutorialDriver {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -10,7 +10,7 @@
 }
 
 
-.Tutorial .steps {
+.TutorialDriver .steps {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -19,13 +19,13 @@
     width: 50%;
     text-align: left;
 }
-.Tutorial .steps h1 {
+.TutorialDriver .steps h1 {
     color: var(--White);
     font-weight: 400;
     text-align: left;
 }
 
-.Tutorial .steps .stepsUnic {
+.TutorialDriver .steps .stepsUnic {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -34,7 +34,7 @@
     margin: 10px;
 }
 
-.Tutorial .steps .stepsUnic .number {
+.TutorialDriver .steps .stepsUnic .number {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -45,12 +45,12 @@
     border: 2px solid var(--White);
 }
 
-.Tutorial .steps .stepsUnic .number h3 {
+.TutorialDriver .steps .stepsUnic .number h3 {
     color: var(--White);
     position: relative;
 }
 
-.Tutorial .steps .stepsUnic .text {
+.TutorialDriver .steps .stepsUnic .text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -60,14 +60,14 @@
 }
 
 
-.Tutorial .steps .stepsUnic .text h3 {
+.TutorialDriver .steps .stepsUnic .text h3 {
     color: var(--White);
 }
-.Tutorial .steps .stepsUnic .text h5 {
+.TutorialDriver .steps .stepsUnic .text h5 {
     display: none;
 }
 
-.Tutorial .steps .stepsUnicSelect {
+.TutorialDriver .steps .stepsUnicSelect {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -76,7 +76,7 @@
     margin: 10px;
 }
 
-.Tutorial .steps .stepsUnicSelect .number {
+.TutorialDriver .steps .stepsUnicSelect .number {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -88,13 +88,13 @@
     border: 1px solid var(--Red);
 }
 
-.Tutorial .steps .stepsUnicSelect .number h3 {
+.TutorialDriver .steps .stepsUnicSelect .number h3 {
     color: var(--White);
     position: relative;
 }
 
 
-.Tutorial .steps .stepsUnicSelect .text {
+.TutorialDriver .steps .stepsUnicSelect .text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -104,18 +104,18 @@
     border-bottom: 3px solid var(--Red);
 }
 
-.Tutorial .steps .stepsUnicSelect .text h3 {
+.TutorialDriver .steps .stepsUnicSelect .text h3 {
     color: var(--White);
     font-weight: bold;
 }
 
-.Tutorial .steps .stepsUnicSelect .text h5 {
+.TutorialDriver .steps .stepsUnicSelect .text h5 {
     color: var(--White);
     font-weight: 400;
     margin-top: 5px;
 }
 
-.Tutorial .image {
+.TutorialDriver .image {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,22 +124,22 @@
     height: 700px;
 }
 
-.Tutorial .image img {
+.TutorialDriver .image img {
     height: 100%;
 }
 
 @media (max-width: 1200px) {
-    .Tutorial {
+    .TutorialDriver {
         padding: 0 100px;
     }
 
     @media (max-width: 1200px) {
-        .Tutorial {
+        .TutorialDriver {
             padding: 0 50px;
         }
 
         @media (max-width: 750px) {
-            .Tutorial {
+            .TutorialDriver {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -151,7 +151,7 @@
             }
 
             
-            .Tutorial .steps {
+            .TutorialDriver .steps {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -162,7 +162,7 @@
                 height: 700px;
             }
 
-            .Tutorial .image {
+            .TutorialDriver .image {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -171,7 +171,7 @@
                 height: 400px;
             }
 
-            .Tutorial .image img {
+            .TutorialDriver .image img {
                 height: 100%;
             }
 
@@ -179,12 +179,12 @@
 
             @media (max-width: 450px) {
 
-                .Tutorial .steps h1 {
+                .TutorialDriver .steps h1 {
                     font-size: 26px;
                 }
                 
 
-                .Tutorial .steps {
+                .TutorialDriver .steps {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
@@ -195,34 +195,34 @@
                     height: 600px;
                 }
 
-                .Tutorial .steps .stepsUnicSelect .number {
+                .TutorialDriver .steps .stepsUnicSelect .number {
                     width: 40px;
                     height: 40px;
                 }
-                .Tutorial .steps .stepsUnicSelect .number h3{
+                .TutorialDriver .steps .stepsUnicSelect .number h3{
                     font-size: 16px;
                 }
 
-                .Tutorial .steps .stepsUnicSelect .text {
+                .TutorialDriver .steps .stepsUnicSelect .text {
                     padding: 5px 0;
                     margin-left: 10px;
                 }
-                .Tutorial .steps .stepsUnicSelect .text h3 {
+                .TutorialDriver .steps .stepsUnicSelect .text h3 {
                     font-size: 16px;
                 }
-                .Tutorial .steps .stepsUnic .number {
+                .TutorialDriver .steps .stepsUnic .number {
                     width: 40px;
                     height: 40px;
                 }
-                .Tutorial .steps .stepsUnic .number h3{
+                .TutorialDriver .steps .stepsUnic .number h3{
                     font-size: 16px;
                 }
 
-                .Tutorial .steps .stepsUnic .text {
+                .TutorialDriver .steps .stepsUnic .text {
                     padding: 5px 0;
                     margin-left: 10px;
                 }
-                .Tutorial .steps .stepsUnic .text h3 {
+                .TutorialDriver .steps .stepsUnic .text h3 {
                     font-size: 16px;
                 }
             }

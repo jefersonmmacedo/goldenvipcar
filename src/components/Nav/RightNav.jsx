@@ -47,7 +47,7 @@ const Ul = styled.ul`
 
   @media (max-width: 950px) {
     flex-flow: column nowrap;
-    background: rgba(81, 42, 121, 0.95);
+    background: #780606;
     backdrop-filter: blur(4px);
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
@@ -60,7 +60,7 @@ const Ul = styled.ul`
 
     li {
       padding: 5px;
-      margin: -20px 10px;
+      margin: 20px 10px;
     }
     li a {
       color: var(--White);
@@ -70,7 +70,7 @@ const Ul = styled.ul`
     }
 
     button{
-      background-color: var(--Blue);
+      background-color: var(--Black);
       margin-left: 10px;
       margin-right: 10px;
     }

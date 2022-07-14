@@ -85,3 +85,43 @@
     padding: 20px;
     text-align: center;
 }
+
+
+
+@media (max-width: 720px) {
+
+    .Premier .infos {
+        text-align: center;
+    }
+
+    .Premier .top{
+        padding: 50px;
+    }
+
+    .Premier .top .text h1 {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    @media (max-width: 500px) {
+
+        .Premier .top{
+            padding: 20px;
+        }
+    
+        .Premier .top .text h1 {
+            font-size: 3em;
+        }
+
+        @media (max-width: 400px) {
+
+       
+            .Premier .top .text h1 {
+                font-size: 3em;
+            }
+        
+        }
+    
+    }
+
+}

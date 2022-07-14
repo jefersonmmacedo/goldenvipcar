@@ -4,6 +4,8 @@ import {AiFillAndroid, AiFillApple} from 'react-icons/ai'
 
 
 function Footer() {
+
+    const date = new Date().getFullYear();
     return (
         <div className="Footer">
                 <div className="blocks">
@@ -55,8 +57,8 @@ function Footer() {
                         </div>
                 </div>
                 <div className="copy">
-                    <h5>Golden Vip Car. Todos os direitos reservados</h5>
-                    <h5>Desenvolvido e mantido por: Coding It</h5>
+                    <h5>Golden Vip Car {date}. Todos os direitos reservados</h5>
+                    <h5>Desenvolvido e mantido por: <a href="https://www.codingit.com.br/" target="_Blank">Coding It</a></h5>
                 </div>
         </div>
     )

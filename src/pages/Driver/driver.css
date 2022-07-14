@@ -30,6 +30,7 @@
     padding: 20px;
     background: rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(4px);
+    border-radius: 15px;
 }
 
 .Driver .top .text h1 {
@@ -86,4 +87,41 @@
 
 .Driver .infos .itens .item h2 {
     margin: 10px 0;
+}
+
+@media (max-width: 720px) {
+
+    .Driver .infos {
+        text-align: center;
+    }
+
+    .Driver .top{
+        padding: 50px;
+    }
+
+    .Driver .top .text h1 {
+        font-size: 5em;
+    }
+
+    @media (max-width: 500px) {
+
+        .Driver .top{
+            padding: 20px;
+        }
+    
+        .Driver .top .text h1 {
+            font-size: 5em;
+        }
+
+        @media (max-width: 500px) {
+
+       
+            .Driver .top .text h1 {
+                font-size: 4em;
+            }
+        
+        }
+    
+    }
+
 }
