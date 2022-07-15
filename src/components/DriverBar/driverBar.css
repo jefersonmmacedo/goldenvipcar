@@ -94,3 +94,60 @@
     font-size:14px;
     margin-left: 30px;
   }
+
+  @media (max-width: 900px) {
+    .DriverBar .block2 img{
+        width: 40%;
+    }
+
+    @media (max-width: 700px) {
+        .DriverBar .block2 img{
+            display: none;
+        }
+
+        .DriverBar .block2 .text {
+            width: 100%;
+        }
+
+        @media (max-width: 450px) {
+            .DriverBar .block1 {
+                text-align: center;
+                padding: 40px 10px;
+                background-color: var(--Red);
+                align-items: center;
+                height: 100%;
+            }
+            .DriverBar .block1 h1 {
+                text-align: center;
+            }
+            .DriverBar .block1 .logos {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+
+            }
+            
+            .DriverBar .block1 .logos img {
+                height: 40px;
+            }
+
+            .DriverBar .block3 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                color: var(--White);
+                width: 100%;
+                padding: 40px 10px;
+                height: 100%;
+                text-align: center;
+            }
+            .DriverBar .block3 h3 {
+                text-align: center;
+            }
+            
+          }
+      }
+  }

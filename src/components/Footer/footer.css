@@ -79,6 +79,9 @@
     color: var(--White);
     text-decoration: none;
 }
+.Footer .copy h5 a:hover {
+    color: var(--Black);
+}
 
 @media (max-width: 1280px) {
     .Footer .blocks {

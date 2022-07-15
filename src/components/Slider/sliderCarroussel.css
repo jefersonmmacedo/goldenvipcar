@@ -23,7 +23,7 @@
         flex-direction: row;
         width: 100%;
         z-index: 50;
-        background-color: aqua;
+        background-color: var(--Black);
     }
     .slider-carrousel a img {
         width: 100%;
